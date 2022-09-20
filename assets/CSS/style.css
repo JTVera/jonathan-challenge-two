@@ -1,4 +1,10 @@
-* {
+* :root {
+    --dark: #13293d;
+    --light: #fff;
+    --peach: #d8a47f;
+  }
+
+{
     box-sizing: border-box;
   }
   
@@ -104,4 +110,3 @@
       flex-direction: column;
     }
   }
-  
