@@ -1,5 +1,5 @@
 * :root {
-    --dark: #13293d;
+    --dark: #adc4da;
     --light: #fff;
     --peach: #d8a47f;
   }
@@ -16,7 +16,7 @@
   header {
     padding: 40px;
     text-align: center;
-    background: #13293d;
+    background: #8e3c96;
     color: #fff;
   }
   
@@ -26,7 +26,7 @@
   */
   nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: #a155e9;
   }
   
   nav a {
@@ -47,7 +47,7 @@
   
   aside {
     flex: 1;
-    background-color: #b9c6ae;
+    background-color: #8e3c96;
     padding: 80px;
     text-align: center;
   }
@@ -63,21 +63,16 @@
   What does the justify-content property do?
   It is used to align the flex items; in our case, the product cards 
   */
-  .products {
+  .body {
     flex: 4;
-    background-color: #fff;
+    background-color: rgb(255, 253, 253);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  /* 
-  What is the flex property a shorthand property for?
-  It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
-  What is it doing here?
-  We are making the product card not growable, not shrinkable, and with an initial length of 400px 
-  */
+
   .card {
     border-style: solid;
     border-width: 1px;
